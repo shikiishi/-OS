@@ -5,9 +5,9 @@ export default function edgeDetection(imageData) {
     const edgeData = new Uint8ClampedArray(data.length);
 
     const kernel = [
-        [1/9 , 1/9 , 1/9],
-        [1/9 , 1/9 , 1/9],
-        [1/9 , 1/9 , 1/9]
+        [-1, -1, -1],
+        [-1,  8, -1],
+        [-1, -1, -1]
     ];
 
     for (let y = 1; y < height - 1; y++) {
