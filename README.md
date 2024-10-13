@@ -2,6 +2,7 @@
 
 ### 概要
 このプログラムは、さまざまな人の作ったプログラム（モジュール）を簡単に組み合わせられます。
+プレビュー→https://shikiishi.github.io/imageOS/HTML.html
 
 これだけではただのNOcodeです。
 
